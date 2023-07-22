@@ -1,0 +1,73 @@
+
+const musics = [
+  {
+    albumName: 'Greatest Hits',
+    title: 'Bohemian Rhapsody',
+    cover: 'https://example.com/bohemian-rhapsody.jpg',
+    year: '1975',
+    artistName: 'Queen',
+  },
+  {
+    albumName: 'Thriller',
+    title: 'Billie Jean',
+    cover: 'https://example.com/billie-jean.jpg',
+    year: '1982',
+    artistName: 'Michael Jackson',
+  },
+  {
+    albumName: 'Rumours',
+    title: 'Go Your Own Way',
+    cover: 'https://example.com/go-your-own-way.jpg',
+    year: '1977',
+    artistName: 'Fleetwood Mac',
+  },
+  {
+    albumName: 'Back in Black',
+    title: 'You Shook Me All Night Long',
+    cover: 'https://example.com/you-shook-me.jpg',
+    year: '1980',
+    artistName: 'AC/DC',
+  },
+  {
+    albumName: 'Abbey Road',
+    title: 'Come Together',
+    cover: 'https://example.com/come-together.jpg',
+    year: '1969',
+    artistName: 'The Beatles',
+  },
+  {
+    albumName: 'Like a Virgin',
+    title: 'Material Girl',
+    cover: 'https://example.com/material-girl.jpg',
+    year: '1984',
+    artistName: 'Madonna',
+  },
+  {
+    albumName: 'Purple Haze',
+    title: 'Purple Haze',
+    cover: 'https://example.com/purple-haze.jpg',
+    year: '1967',
+    artistName: 'Jimi Hendrix',
+  },
+  {
+    albumName: 'Nevermind',
+    title: 'Smells Like Teen Spirit',
+    cover: 'https://example.com/smells-like-teen-spirit.jpg',
+    year: '1991',
+    artistName: 'Nirvana',
+  },
+  {
+    albumName: 'The Dark Side of the Moon',
+    title: 'Money',
+    cover: 'https://example.com/money.jpg',
+    year: '1973',
+    artistName: 'Pink Floyd',
+  },
+  {
+    albumName: 'Dangerous',
+    title: 'Black or White',
+    cover: 'https://example.com/black-or-white.jpg',
+    year: '1991',
+    artistName: 'Michael Jackson',
+  },
+];

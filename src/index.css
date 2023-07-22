@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  /* outline: 2px solid red; */
+}
+
+:root {
+  color-scheme: light dark;
+  background-color: #121212;
+}
+
+/* body {
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.link {
+  position: relative;
+}
+.link::before{
+  content: "";
+  position: absolute;
+  bottom:-5px;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background-color:#F9762D ;
+  border-radius: 2px;
+}
+
+.recent::-webkit-scrollbar {
+  width: 5px;
+ border-radius: 30px;
+}
+
+.recent::-webkit-scrollbar-track {
+  background-color:transparent;
+}
+
+.recent::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+.recent::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.tabs:hover {
+  position: relative;
+}
+
+.tabs:hover::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  background-color:#F9762D ;
+  width: 2px;
+  height: 100%;
+
+}
