@@ -10,8 +10,8 @@ function App() {
  
 
   return (
-<div className="flex flex-col justify-center h-screen items-center">
-  <div className="w-[70%] h-[80vh] m-auto ">
+<div className="">
+  <div className=" ">
    <TopBar/>
    <div className="flex">
    <NavBar/>

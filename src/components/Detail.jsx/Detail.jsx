@@ -4,8 +4,7 @@ import Card from '../Cards/Card'
 
 const Detail = () => {
   return (
-    <div className="flex-[3] h-[60dvh]">
-      Detail
+    <div className="flex-[3] p-5">
       <Banner />
       <Card />
     </div>

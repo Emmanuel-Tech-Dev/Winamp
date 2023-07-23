@@ -51,6 +51,7 @@
 
 .tabs:hover {
   position: relative;
+  
 }
 
 .tabs:hover::before{
@@ -60,5 +61,10 @@
   background-color:#F9762D ;
   width: 2px;
   height: 100%;
+  transition: all .3 ease-in-out;
 
+}
+
+.h1{
+  box-shadow: 0px 10px 20px 0px #F92D2D33;
 }
