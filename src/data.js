@@ -1,5 +1,5 @@
 
-const musics = [
+export const music = [
   {
     albumName: 'Greatest Hits',
     title: 'Bohemian Rhapsody',

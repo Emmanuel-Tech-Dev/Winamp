@@ -16,8 +16,8 @@ import {PiMoonFill} from 'react-icons/pi'
 
 const NavBar = () => {
   return (
-    <div className="flex-[1] flex flex-col justify-between  bg-[#242424]">
-      <div className="top-nav  p-5 flex flex-col gap-y-6 h-[30vh]">
+    <div className="flex-[1] flex h-[77dvh] flex-col justify-between  bg-[#242424]">
+      <div className="top-nav  p-5 flex flex-col gap-y-5 ">
         <div className="links flex items-center gap-x-3 cursor-pointer text-[#F9762D] transition-all duration-300 ease-in-out ">
           <AiTwotoneAppstore size={20} />
           Home
